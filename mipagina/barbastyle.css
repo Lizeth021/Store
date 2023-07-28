@@ -1,0 +1,40 @@
+.video-barberia{
+    width: 400px;
+    margin: 1em auto;
+}
+
+.diferenciales{
+    padding: 3em 0;
+    
+}
+
+.formato-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+
+
+.lista-diferenciales{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+.items::before{
+    content: "★";
+}
+
+.items{
+    line-height: 1.5;
+}
+
+.items:first-child{
+    font-weight: bolder;
+    font-size: large;
+
+}
+
+.formato-diferenciales{
+    padding: 3em 0;
+    background: #888888 ;
+}
